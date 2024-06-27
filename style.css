@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.main{
+    width: 100%;
+    background-color: rgb(75, 68, 167);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+
+}
+.icon{
+width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+     padding-left: 20px;
+     float: left;
+     padding-top: 10px;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(231, 228, 228);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;;
+}
+ul li a:hover{
+    color: orange;  
+}
+.content{
+    position: absolute;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+.content h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 46px;
+    color: rgb(231, 228, 228);
+    text-align: center;
+    padding-top: 400px;
+    padding: auto;
+    margin: auto;
+
+}
+.content p{
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+
+
+
